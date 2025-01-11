@@ -36,6 +36,7 @@ OBJS = $(SRCS:.c=.o)
 NAME = libft.a
 
 all : $(NAME)
+	@echo "libft compiled!!!"
 
 $(NAME) : $(OBJS)
 	ar rcs $(NAME) $(OBJS)
